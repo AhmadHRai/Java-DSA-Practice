@@ -1,4 +1,4 @@
-package AdjacencyMatrix;
+package GraphDataStructures.AdjacencyMatrix;
 
 public class Node {
 
