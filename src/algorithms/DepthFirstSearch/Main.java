@@ -1,5 +1,7 @@
 package algorithms.DepthFirstSearch;
 
+import GraphDataStructures.AdjacencyMatrix.Node;
+
 public class Main {
     public static void main(String[] args) {
         // Adjacency List = An array/arraylist of linkedlists.

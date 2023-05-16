@@ -1,5 +1,6 @@
 package GraphDataStructures.AdjacencyLists;
 
+import GraphDataStructures.AdjacencyMatrix.Node;
 public class Main {
     public static void main(String[] args) {
         // Adjacency List = An array/arraylist of linkedlists.
@@ -11,7 +12,7 @@ public class Main {
 
         Graph graph = new Graph();
 
-        graph.addNode(new Node('A'));
+        graph.addNode(new GraphDataStructures.AdjacencyMatrix.Node('A'));
         graph.addNode(new Node('B'));
         graph.addNode(new Node('C'));
         graph.addNode(new Node('D'));

@@ -2,9 +2,9 @@ package GraphDataStructures.AdjacencyMatrix;
 
 public class Node {
 
-    char data;
+    public char data;
 
-    Node(char data){
+    public Node(char data){
         this.data = data;
     }
 

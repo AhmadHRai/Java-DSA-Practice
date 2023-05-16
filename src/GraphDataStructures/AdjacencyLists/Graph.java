@@ -1,5 +1,7 @@
 package GraphDataStructures.AdjacencyLists;
 
+import GraphDataStructures.AdjacencyMatrix.Node;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 

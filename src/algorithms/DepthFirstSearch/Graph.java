@@ -1,6 +1,8 @@
 package algorithms.DepthFirstSearch;
 
 import java.util.ArrayList;
+import GraphDataStructures.AdjacencyMatrix.Node;
+
 
 public class Graph {
 
