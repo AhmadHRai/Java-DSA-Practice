@@ -1,12 +1,9 @@
-package algorithms.DepthFirstSearch;
+package algorithms.BreadthFirstSearch;
 
 import GraphDataStructures.AdjacencyMatrix.Node;
 
 public class Main {
     public static void main(String[] args) {
-        // Depth First Search = Pick a route, keep going.
-        //					 If you reach a dead end, or an already visited node,
-        //					 backtrack to a previous node with unvisited adjacent neighbors
 
         Graph graph = new Graph(5);
 
