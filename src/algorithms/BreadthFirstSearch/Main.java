@@ -4,6 +4,16 @@ import GraphDataStructures.AdjacencyMatrix.Node;
 
 public class Main {
     public static void main(String[] args) {
+        // Breadth FS = Traverse a graph level by level
+        //			   Utilizes a Queue
+        //			   Better if destination is on average close to start
+        //			   Siblings are visited before children
+
+        // Depth FS   = Traverse a graph branch by branch
+        //			   Utilizes a Stack
+        //			   Better if destination is on average far from the start
+        //			   Children are visited before siblings
+        //			   More popular for games/puzzles
 
         Graph graph = new Graph(5);
 
@@ -25,6 +35,6 @@ public class Main {
 
         System.out.println();
 
-        graph.depthFirstSearch(3);
+        graph.breadthFirstSearch(3);
     }
 }
