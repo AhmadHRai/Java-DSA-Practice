@@ -72,6 +72,7 @@ public class BinarySearchTree {
         else {
             // node found
             if(root.left == null && root.right == null) {
+                //  If node is leaf node
                 root = null;
             }
             else if(root.right != null) {
