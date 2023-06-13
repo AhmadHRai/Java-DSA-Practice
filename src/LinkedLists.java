@@ -15,7 +15,7 @@ public class LinkedLists {
         //    disadvantages?
         //    1. Greater memory usage (additional pointer)
         //    2. No random access of elements (no index [i])
-        //    3. Accessing/searching elements is more time consuming. O(n)
+        //    3. Accessing/searching elements is more time-consuming. O(n)
 
         //    uses?
         //    1. implement Stacks/Queues
